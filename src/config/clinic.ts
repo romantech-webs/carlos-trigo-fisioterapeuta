@@ -1,307 +1,331 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Carlos Trigo Fisioterapeuta Deportivo a Domicilio – Sevilla",
+  logo: "/images/logo.png",
+  tagline: "Fisioterapia Deportiva a Domicilio en Sevilla",
+  description: "Carlos Trigo Fisioterapeuta Deportivo a Domicilio ofrece tratamientos de fisioterapia personalizados en tu hogar en Sevilla. Especializados en recuperación neurológica post-ictus, fisioterapia deportiva, rehabilitación funcional y tratamiento del dolor. Con 5 estrellas y 113 reseñas en Google, nos desplazamos a tu domicilio para ofrecerte un servicio profesional, cercano y eficaz, con seguimiento continuo hasta tu completa recuperación.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#3a384f",
+    secondary: "#2a2739",
+    accent: "#2a2739",
+    neutral: "#efeff1"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "659 85 42 93",
+  whatsapp: "+34659854293",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Rda. de Capuchinos, 2, Casco Antiguo, 41007 Sevilla, España",
+    city: "Sevilla",
+    province: "Toledo",
+    postalCode: "41007",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=3985391118265488989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Carlos%20Trigo%20Fisioterapeuta%20Deportivo%20a%20Domicilio%20%E2%80%93%20Sevilla%20%4037.3996%2C-5.98473&z=16&output=embed",
+  coordinates: {
+    lat: 37.3996,
+    lng: -5.98473
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "Lunes - Viernes",
+      hours: "09:00 - 20:00"
+    },
+    {
+      days: "Sábado",
+      hours: "Consultar"
+    },
+    {
+      days: "Domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 113,
+    url: "https://maps.google.com/?cid=3985391118265488989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Maria Teresa Grosso Linares",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Es un fisio estupendo mi marido con ictus no podía andar la parte izquierda  la tenía casi inmóvil y en pocas sesiones lo puso a caminar y en la calle se lo lleva y da largos paseos con él, aparte es muy servicial se preocupa muocho por los pacientes siempre pregunta cómo está y hace un seguimiento cariñoso, volveré a contar con él siempre que necesite ayuda",
+        date: "Hace 3 semanas"
       },
       {
-        author: "Javier Padilla",
+        author: "Jesus Garcia Chaves",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Genial las sesiones que he tenido con Carlos. Me ha tratado de una manera fenomenal llegando al dolor e incluso quitándolo. Después de las sesiones siempre interesándose por cómo avanzaban las molestias. Increíble. Profesionales de los pies a la cabeza, de los que ya no quedan.",
+        date: "Hace 1 mes"
       },
       {
-        author: "Melanie Ponce",
+        author: "Javier Gallego Montes",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Carlos ha sido un profesional muy atento. Ha asistido de manera satisfactoria a mi hija Alba. Le ha solucionado la molestia con la que acudimos. Además le ha recomendado ejercicios para prevenir futuras lesiones en la práctica del fútbol.",
+        date: "Hace 3 semanas"
       },
       {
-        author: "María Teresa Salguero",
+        author: "edeila garcia sanchez",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Hola eh conocido a Carlos por prontoPro. Un chico muy atento y muy dedicado A su trabajo.pendiente de q uno aprenda a entrenar en viene a mi gimnasio q.tengo en la comunidad.  Muy respetuoso gracias Carlos 😊",
+        date: "Hace 3 semanas"
       },
-    ],
+      {
+        author: "sandra ventura",
+        rating: 5,
+        text: "Excelente profesional sin duda volvería a repetir con él. El trato profesional, atento, comprometido, cercano y eficaz es importante destacar.",
+        date: "Hace 3 semanas"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-domicilio",
+      name: "Fisioterapia a Domicilio",
+      description: "Tratamientos profesionales de fisioterapia en la comodidad de tu hogar. Nos desplazamos a tu domicilio en Sevilla con todo el material necesario para ofrecerte sesiones personalizadas y efectivas. Ideal para personas con movilidad reducida, mayores o quienes prefieren la comodidad del hogar.",
+      benefits: [
+        "Comodidad de recibir tratamiento en tu hogar",
+        "Sin desplazamientos ni esperas",
+        "Atención personalizada y dedicada"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "rehabilitacion-neurologica",
+      name: "Rehabilitación Neurológica",
+      description: "Tratamiento especializado para pacientes con ictus, hemiplejia y otras afecciones neurológicas. Trabajamos la recuperación de la movilidad, el equilibrio y la marcha mediante técnicas avanzadas de neurorehabilitación. Incluimos paseos terapéuticos en exteriores para mejorar la funcionalidad en entorno real.",
+      benefits: [
+        "Recuperación progresiva de la movilidad perdida",
+        "Trabajo funcional en casa y en la calle",
+        "Seguimiento personalizado y continuo"
+      ],
+      icon: "Activity"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Prevención y tratamiento de lesiones deportivas para atletas de todos los niveles. Evaluación biomecánica, tratamiento de lesiones musculares y articulares, y programas de ejercicios específicos para cada deporte. Especialmente efectivo para futbolistas y deportistas que buscan prevenir recaídas.",
+      benefits: [
+        "Recuperación rápida de lesiones deportivas",
+        "Ejercicios preventivos personalizados",
+        "Vuelta segura a la actividad deportiva"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "tratamiento-dolor",
+      name: "Tratamiento del Dolor",
+      description: "Técnicas manuales avanzadas para eliminar el dolor agudo y crónico. Identificamos el origen del dolor mediante valoración exhaustiva y aplicamos las técnicas más efectivas: terapia manual, movilizaciones articulares y tratamiento de puntos gatillo. Resultados desde las primeras sesiones.",
+      benefits: [
+        "Alivio efectivo del dolor desde la primera sesión",
+        "Tratamiento directo sobre la causa del problema",
+        "Técnicas manuales especializadas"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "rehabilitacion-funcional",
+      name: "Rehabilitación Funcional",
+      description: "Programas de rehabilitación diseñados para recuperar tu funcionalidad en las actividades diarias. Trabajamos objetivos específicos adaptados a tus necesidades: caminar, subir escaleras, volver al deporte o recuperar autonomía. Entrenamiento funcional y ejercicio terapéutico personalizado.",
+      benefits: [
+        "Recuperación de la autonomía personal",
+        "Ejercicios adaptados a tus objetivos",
+        "Mejora de fuerza, equilibrio y coordinación"
+      ],
+      icon: "Activity"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "entrenamiento-terapeutico",
+      name: "Entrenamiento Terapéutico",
+      description: "Programas de ejercicio terapéutico supervisado para complementar tu tratamiento de fisioterapia. Enseñanza de ejercicios correctivos, fortalecimiento muscular y reeducación postural. Ideal para realizar en tu gimnasio de comunidad o en casa con seguimiento profesional.",
+      benefits: [
+        "Aprendizaje de ejercicios correctos y seguros",
+        "Prevención de futuras lesiones",
+        "Supervisión profesional de tu entrenamiento"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas para tratar contracturas, rigidez articular y problemas musculoesqueléticos. Terapia manual osteopática, movilizaciones articulares y masaje terapéutico profundo. Tratamiento personalizado según tu patología y necesidades específicas.",
+      benefits: [
+        "Mejora inmediata de la movilidad articular",
+        "Eliminación de contracturas musculares",
+        "Técnicas adaptadas a cada paciente"
+      ],
+      icon: "Hand"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "seguimiento-continuo",
+      name: "Seguimiento Continuo",
+      description: "Seguimiento personalizado entre sesiones para asegurar tu evolución positiva. Contacto regular para resolver dudas, ajustar ejercicios y monitorizar tu progreso. Atención cercana y comprometida que marca la diferencia en tu recuperación.",
+      benefits: [
+        "Atención personalizada fuera de las sesiones",
+        "Ajuste continuo del plan de tratamiento",
+        "Compromiso real con tu recuperación"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta por Teléfono o WhatsApp",
+      description: "Llama al 659 85 42 93 o envía un WhatsApp para solicitar tu cita a domicilio. Te explicamos cómo trabajamos y coordinamos el mejor horario para tu primera visita en tu hogar en Sevilla."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Inicial en tu Domicilio",
+      description: "Carlos se desplaza a tu casa para realizar una evaluación completa de tu estado físico, movilidad y dolor. Diseñamos juntos un plan de tratamiento personalizado adaptado a tus objetivos específicos de recuperación."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Aplicamos las técnicas de fisioterapia más adecuadas para tu caso: terapia manual, ejercicios terapéuticos, movilizaciones y entrenamiento funcional. Si es necesario, incluimos paseos terapéuticos en exteriores para mejorar tu marcha y autonomía."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento hasta tu Recuperación",
+      description: "Mantenemos contacto regular para monitorizar tu evolución, resolver dudas y ajustar el tratamiento. Seguimiento continuo y cercano hasta que alcances tus objetivos de recuperación completa y prevención de recaídas."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "5 Estrellas en Google con 113 Reseñas",
+      description: "Más de 113 pacientes satisfechos avalan nuestro trabajo con valoraciones de 5 estrellas. Nuestros pacientes destacan la efectividad de los tratamientos, el trato cercano y profesional, y el compromiso real con su recuperación. Resultados reales que puedes comprobar.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Fisioterapia Profesional en tu Hogar",
+      description: "Nos desplazamos a tu domicilio en Sevilla con todo el material necesario para ofrecerte tratamientos de máxima calidad. Sin desplazamientos, sin esperas, solo atención personalizada y dedicada en la comodidad de tu casa. Ideal para personas con movilidad reducida o que prefieren la comodidad del hogar.",
+      icon: "Home"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Seguimiento Continuo y Cercano",
+      description: "Mantenemos contacto regular entre sesiones para conocer tu evolución, resolver dudas y ajustar el tratamiento según tus progresos. Este seguimiento personalizado y comprometido es lo que marca la diferencia en tu recuperación y lo que más valoran nuestros pacientes.",
+      icon: "Heart"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Especialización en Rehabilitación Neurológica y Deportiva",
+      description: "Experiencia demostrada en rehabilitación post-ictus con recuperación de movilidad y marcha, y en fisioterapia deportiva con programas preventivos personalizados. Trabajamos tanto en casa como en exteriores realizando paseos terapéuticos para mejorar tu funcionalidad en entorno real.",
+      icon: "Target"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Carlos Trigo",
+      role: "Fisioterapeuta Deportivo",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Carlos Trigo Fisioterapeuta Deportivo a Domicilio – Sevilla nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Carlos Trigo Fisioterapeuta Deportivo a Domicilio – Sevilla - Imagen 1"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿En qué zonas de Sevilla ofrecéis fisioterapia a domicilio?",
+      answer: "Carlos Trigo Fisioterapeuta Deportivo a Domicilio ofrece sus servicios en toda Sevilla y alrededores. Nos desplazamos a tu hogar con todo el material necesario para realizar tratamientos profesionales de fisioterapia. Consulta disponibilidad para tu zona específica llamando al 659 85 42 93."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Qué tipo de lesiones tratáis a domicilio?",
+      answer: "Tratamos lesiones deportivas, dolores musculares y articulares, rehabilitación neurológica post-ictus, recuperación funcional tras cirugías y problemas de movilidad. Nuestros pacientes han recuperado movilidad tras ictus, se han recuperado de lesiones deportivas de fútbol y han eliminado dolores crónicos. Cada tratamiento es personalizado según tu patología y objetivos."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cuántas sesiones necesitaré para notar mejoría?",
+      answer: "Muchos pacientes notan alivio desde la primera sesión, especialmente en casos de dolor agudo. Para lesiones deportivas o rehabilitación neurológica, el número de sesiones varía según cada caso. En la valoración inicial establecemos objetivos realistas y un plan de tratamiento estimado. Realizamos seguimiento continuo para ajustar el tratamiento según tu evolución."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Trabajáis con pacientes de rehabilitación neurológica?",
+      answer: "Sí, tenemos amplia experiencia en rehabilitación neurológica, especialmente con pacientes post-ictus con hemiplejia. Hemos ayudado a pacientes a recuperar movilidad en extremidades afectadas y a volver a caminar. Incluimos trabajo funcional en casa y paseos terapéuticos en exteriores para mejorar la marcha en entorno real. El seguimiento es cercano y personalizado."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Ofrecéis ejercicios preventivos para deportistas?",
+      answer: "Sí, además del tratamiento de lesiones, enseñamos ejercicios específicos para prevenir futuras lesiones según tu deporte. Hemos trabajado con futbolistas proporcionando programas preventivos personalizados. También supervisamos entrenamientos terapéuticos en gimnasios de comunidad o en casa para asegurar que realizas los ejercicios correctamente y de forma segura."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Cómo es el seguimiento entre sesiones?",
+      answer: "Carlos Trigo mantiene contacto regular con sus pacientes entre sesiones para conocer su evolución, resolver dudas sobre ejercicios y ajustar el tratamiento si es necesario. Este seguimiento continuo y cercano es uno de los aspectos más valorados por nuestros pacientes, como reflejan nuestras 113 reseñas de 5 estrellas en Google."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué ventajas tiene la fisioterapia a domicilio?",
+      answer: "La fisioterapia a domicilio elimina desplazamientos, esperas y te permite recibir tratamiento en un entorno cómodo y familiar. Es especialmente beneficiosa para personas con movilidad reducida, mayores, pacientes neurológicos o quienes tienen dificultad para desplazarse. Además, permite trabajar ejercicios funcionales en tu entorno real y realizar paseos terapéuticos desde tu casa."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cómo solicito una cita de valoración?",
+      answer: "Puedes solicitar tu cita llamando directamente al 659 85 42 93 o enviando un mensaje por WhatsApp. Te explicaremos cómo trabajamos y coordinaremos el mejor horario para tu primera visita a domicilio en Sevilla. La valoración inicial nos permite conocer tu caso y diseñar un plan de tratamiento personalizado para tu recuperación."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Carlos Trigo Fisioterapeuta Deportivo a Domicilio – Sevilla",
+    defaultTitle: "Fisioterapia a Domicilio en Sevilla | Carlos Trigo",
+    defaultDescription: "Fisioterapia deportiva y rehabilitación neurológica a domicilio en Sevilla. 5★ con 113 reseñas. Tratamiento del dolor, recuperación post-ictus y lesiones deportivas. ☎ 659 85 42 93",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia a domicilio Sevilla",
+      "fisioterapeuta deportivo Sevilla",
+      "Carlos Trigo fisioterapeuta",
+      "rehabilitación neurológica Sevilla",
+      "fisioterapia post-ictus Sevilla",
+      "tratamiento lesiones deportivas Sevilla",
+      "fisioterapia en casa Sevilla",
+      "rehabilitación a domicilio Sevilla",
+      "fisioterapeuta Sevilla Toledo",
+      "tratamiento del dolor Sevilla",
+      "fisioterapia deportiva a domicilio",
+      "recuperación funcional Sevilla"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Carlos Trigo Fisioterapeuta Deportivo a Domicilio – Sevilla",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Rda. de Capuchinos, 2, Casco Antiguo, 41007 Sevilla, España, Sevilla, Toledo"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Sevilla"
+  ],
+  heroDescription: "Fisioterapia profesional en la comodidad de tu hogar en Sevilla. Carlos Trigo se desplaza a tu domicilio para ofrecerte tratamientos personalizados de fisioterapia deportiva, rehabilitación neurológica y recuperación funcional. Atención cercana, seguimiento continuo y resultados reales avalados por más de 113 pacientes satisfechos.",
+  specialty: "Fisioterapia a Domicilio",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Necesitas recuperar tu movilidad y bienestar?",
+  ctaDescription: "Solicita tu cita de valoración a domicilio. Carlos Trigo se desplaza a tu hogar en Sevilla para ofrecerte un tratamiento personalizado y profesional. Llama ahora y comienza tu recuperación.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
